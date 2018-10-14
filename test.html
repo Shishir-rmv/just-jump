@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.1.js"></script>
+<script>
+    const socket = io('http://localhost:3000');
+    // setInterval(function () {
+    //     socket.emit('jump', { action: "jump"});
+    // }, 3000);
+    var i = 600;
+    setInterval(function () {
+        socket.emit('jump', { magnitude: i});
+    }, 1000);
+
+    // setInterval(function () {
+    //     socket.emit('left', { action: "left"});
+    // }, 1000);
+
+    // setInterval(function () {
+    //     socket.emit('right', { action: "right"});
+    // }, 2000);
+
+
+    // socket.emit('run', { action: "run"});
+    // socket.emit('left', { action: "left"});
+    // socket.emit('run', { action: "run"});
+    // socket.emit('right', { action: "right"});
+
+
+    // for(var i = 400; i <= 1200; i=i+100){
+    //     socket.emit('jump', { magnitude: i});
+    // }
+
+
+
+</script>
+
+</body>
+</html>
