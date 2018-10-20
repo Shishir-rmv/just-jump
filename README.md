@@ -1,6 +1,7 @@
 # Just-Jump
 
 ## Hack UMass 2018
+This project was developed as part of "HackUmass VI" Hackathon.
 
 ### Purpose:
 Simple. We just wanted to improve quality of living, primarily by increasing fitness awareness. We know how well you used your gym yearly membership a few days following New Year’s day, and we have just what you need to incinerate those calories while jumping about with child-like joy! Just Jump is a running platformer game with a twist. You don’t leap across chasms by swiping on your phone – Instead, you take the leap yourselves! Worry not though, just jump whenever and wherever you feel like it.
